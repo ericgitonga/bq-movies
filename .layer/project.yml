@@ -1,0 +1,7 @@
+apiVersion: 1
+
+name: "BigQuery Movies"
+
+integrations:
+  layerbq:
+    type: BigQuery

@@ -1,6 +1,6 @@
 apiVersion: 1
 
-name: "movies"
+name: "dataset"
 type: source
 
 materializations:

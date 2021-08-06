@@ -9,18 +9,18 @@ features:
   - name: success
     description: "Identifies whether a movie was a success or not"
     source: success.sql
-  - name: directors
+  - name: number_of_directors
     description: "Returns the number of directors a movie had"
-    source: directors.sql
+    source: number_of_directors.sql
   - name: runtime
     description: "Returns the length of the movie in minutes"
     source: runtime.sql
   - name: month
     description: "Returns the month the movie was released"
     source: month.sql
-  - name: r_date
+  - name: release_date
     description: "Returns the date the movie was released"
-    source: r_date.sql
+    source: release_date.sql
   - name: day
     description: "Returns an encoded value corresponding to the day the movie was released"
     source: day.sql

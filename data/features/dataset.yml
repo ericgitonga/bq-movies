@@ -32,4 +32,6 @@ schema:
   primary_keys: ["movie_id"]
 
 materializations:
-  - target: layerbq
+  - type: table
+    target: layerbq
+    table_name: "movies"
